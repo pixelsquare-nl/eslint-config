@@ -1,10 +1,11 @@
-'use strict';
+/* eslint-disable prettier/prettier */
+'use strict'
 
 const rules = [
   './src/style',
   './src/variables',
   './src/functions'
-].map(require.resolve);
+].map(require.resolve)
 
 /**
  * @type {import("eslint").Linter.Config}
@@ -15,9 +16,15 @@ const config = {
     'node': true,
   },
   'parserOptions': {
-    'ecmaVersion': '2021'
+    'ecmaVersion': '2021',
   },
-  'extends': ['eslint:recommended', ...rules]
-};
+  'rules': {
+    'prettier/prettier': 'warn',
+    'arrow-body-style': 'off',
+    'prefer-arrow-callback': 'off',
+  },
+  'plugins': ['prettier'],
+  'extends': ['eslint:recommended', ...rules],
+}
 
-module.exports = config;
+module.exports = config

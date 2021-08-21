@@ -23,11 +23,12 @@
   "homepage": "https://github.com/pixelsquare-nl/eslint-prettier-config#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
     "prettier": "2.3.2"
   },
   "peerDependencies": {
     "eslint": "^7.32.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "eslint-plugin-prettier": "^3.4.1"
   }
 }

@@ -1,18 +1,17 @@
-const msg = 'HAID';
+const msg = 'HAID'
 
-const log = msg => console.log(msg);
+const log = msg => console.log(msg)
 
-log(msg);
+log(msg)
 
 const doesItWork = () => {
-  if(msg === 'HAID') {
-    return true;
+  if (msg === 'HAID') {
+    return true
   }
-  return false;
-};
+  return false
+}
 
-console.log(doesItWork);
+console.log(doesItWork)
 
-const yes = 'no';
-
-const obj = { msg: msg };
+const yes = 'no'
+const obj = { msg: msg }

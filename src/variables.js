@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 const rules = {
   /**
@@ -14,7 +14,7 @@ const rules = {
   /**
    * Enforces const variables when there is need for
    */
-  'prefer-const': ['error']
-};
+  'prefer-const': ['error'],
+}
 
-module.exports = { rules };
+module.exports = { rules }
