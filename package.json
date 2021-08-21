@@ -1,0 +1,31 @@
+{
+  "name": "eslint-prettier-config",
+  "version": "1.0.0",
+  "description": "Quick opinionated .eslintrc.json and .prettierrc.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelsquare-nl/eslint-prettier-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "config"
+  ],
+  "author": "Bas van Driel <bas@pixelsquare.nl>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pixelsquare-nl/eslint-prettier-config/issues"
+  },
+  "homepage": "https://github.com/pixelsquare-nl/eslint-prettier-config#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
