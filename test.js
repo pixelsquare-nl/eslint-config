@@ -12,3 +12,7 @@ const doesItWork = () => {
 };
 
 console.log(doesItWork);
+
+const yes = 'no';
+
+const obj = { msg: msg };

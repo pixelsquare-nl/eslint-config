@@ -1,5 +1,5 @@
 {
-  "name": "eslint-prettier-config",
+  "name": "eslint-config-pixelsquare",
   "version": "1.0.0",
   "description": "Quick opinionated .eslintrc.json and .prettierrc.json",
   "main": "index.js",
@@ -23,9 +23,11 @@
   "homepage": "https://github.com/pixelsquare-nl/eslint-prettier-config#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
-    "prettier": "^2.3.2"
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.3.2"
   },
   "peerDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
   }
 }
