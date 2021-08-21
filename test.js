@@ -1,17 +1,13 @@
-const msg = 'HAID'
+/**
+ * See if node works correctly
+ */
+test('Healthcheck', () => expect(1).toBe(Number(true)))
 
-const log = msg => console.log(msg)
+/**
+ * Check if files aren't throwing any errors
+ */
 
-log(msg)
+const requires = () =>
+  ['.', './src/functions', './src/variables'].map(require.resolve)
 
-const doesItWork = () => {
-  if (msg === 'HAID') {
-    return true
-  }
-  return false
-}
-
-console.log(doesItWork)
-
-const yes = 'no'
-const obj = { msg: msg }
+test('No throwing errors', () => expect(requires).not.toThrow())

@@ -1,1 +1,7 @@
-{ "extends": "." }
+{ 
+    "plugins": ["jest"],
+    "extends": ["."],
+    "env": {
+        "jest/globals": true
+    }
+ }
