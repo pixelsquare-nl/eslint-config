@@ -4,7 +4,7 @@
   "description": "Quick opinionated .eslintrc.json and .prettierrc.json",
   "main": "index.js",
   "files": [
-    "index.js", "prettier.js"
+    "index.js", ".prettierrc.json"
   ],
   "private": false,
   "scripts": {
