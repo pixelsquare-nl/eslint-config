@@ -2,7 +2,6 @@
 'use strict'
 
 const rules = [
-  './src/style',
   './src/variables',
   './src/functions'
 ].map(require.resolve)
