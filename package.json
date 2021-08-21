@@ -18,9 +18,9 @@
   "author": "Bas van Driel <bas@pixelsquare.nl>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/pixelsquare-nl/eslint-prettier-config/issues"
+    "url": "https://github.com/pixelsquare-nl/eslint-config/issues"
   },
-  "homepage": "https://github.com/pixelsquare-nl/eslint-prettier-config#readme",
+  "homepage": "https://github.com/pixelsquare-nl/eslint-config#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^3.4.1",
