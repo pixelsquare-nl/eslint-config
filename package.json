@@ -1,8 +1,11 @@
 {
   "name": "@pixelsquare/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick opinionated .eslintrc.json and .prettierrc.json",
   "main": "index.js",
+  "files": [
+    "index.js", "prettier.js"
+  ],
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
