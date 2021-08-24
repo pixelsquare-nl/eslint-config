@@ -1,6 +1,6 @@
 {
   "name": "@pixelsquare/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Quick opinionated .eslintrc.json and .prettierrc.json",
   "main": "index.js",
   "files": [
