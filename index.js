@@ -4,7 +4,7 @@
 const rules = [
   './variables',
   './functions'
-].map(require.resolve)
+]
 
 try {
   if (require.resolve('eslint-plugin-react') && require.resolve('react')) {
@@ -30,7 +30,7 @@ const config = {
     'prefer-arrow-callback': 'off',
   },
   'plugins': ['prettier'],
-  'extends': ['eslint:recommended', ...rules],
+  'extends': ['eslint:recommended', ...rules.map(require.resolve)],
 }
 
 module.exports = config
