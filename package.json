@@ -1,12 +1,11 @@
 {
   "name": "@pixelsquare/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Quick opinionated .eslintrc.json and .prettierrc.json",
   "main": "index.js",
   "files": [
     "index.js",
-    ".prettierrc.json",
-    "src"
+    ".prettierrc.json"
   ],
   "private": false,
   "scripts": {
@@ -32,7 +31,7 @@
     "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-prettier": "^3.4.1",
     "jest": "^27.0.6",
-    "prettier": "2.3.2"
+    "prettier": "^2.3.2"
   },
   "peerDependencies": {
     "eslint": "^7.32.0",

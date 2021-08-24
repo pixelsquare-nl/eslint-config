@@ -2,9 +2,16 @@
 'use strict'
 
 const rules = [
-  './src/variables',
-  './src/functions'
+  './variables',
+  './functions'
 ].map(require.resolve)
+
+try {
+  if (require.resolve('eslint-plugin-react') && require.resolve('react')) {
+    rules.push('./react');
+  }
+// eslint-disable-next-line no-empty
+} catch (err) {}
 
 /**
  * @type {import("eslint").Linter.Config}
