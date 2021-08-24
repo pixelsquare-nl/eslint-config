@@ -30,7 +30,7 @@ try {
     require.resolve('@typescript-eslint/eslint-plugin') &&
     require.resolve('@typescript-eslint/parser')
   ) {
-    rules.push(typescript)
+    rules.push(...typescript)
   }
   // eslint-disable-next-line no-empty
 } catch (err) {}

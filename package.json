@@ -1,6 +1,6 @@
 {
   "name": "@pixelsquare/eslint-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Quick opinionated .eslintrc.json and .prettierrc.json",
   "main": "index.js",
   "files": [
@@ -30,12 +30,15 @@
   },
   "homepage": "https://github.com/pixelsquare-nl/eslint-config#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
     "eslint": "^7.32.0",
     "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-react": "^7.24.0",
     "jest": "^27.0.6",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
   },
   "peerDependencies": {
     "eslint": "^7.32.0",
