@@ -2,7 +2,7 @@
  * @type {import("eslint").Linter.Config}
  */
 module.exports = {
-  extends: ['plugin:react/recommended', 'react-app'],
+  extends: ['plugin:react/recommended'],
   plugins: ['react'],
   settings: {
     react: {
